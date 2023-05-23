@@ -44,7 +44,7 @@ export default function AdditionalComment() {
 
             <div className='row w-90 justify-content-md-between justify-content-around mx-auto rounded py-5 '>
                 <h3 className='fs-33 fw-bold text-center mb-3'>
-                    What's your relationship with the property?
+                    Who are the owners of the house?
                 </h3>
                 <p className='text-center formgray-text'>
                     (Who is in title of the property)
@@ -52,7 +52,12 @@ export default function AdditionalComment() {
 
                 <label className='check-box-parent mb-3'>
                     <input type="radio" name='me' />
-                    <span className=''>I’m the homeowner</span>
+                    <span className=''>Me</span>
+                </label>
+
+                <label className='check-box-parent mb-3'>
+                    <input type="radio" name='me' />
+                    <span className=''>Me + Someone else</span>
                 </label>
 
                 <label className='check-box-parent mb-3'>
